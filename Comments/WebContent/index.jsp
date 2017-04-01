@@ -46,10 +46,6 @@
 		
 		<div id = "error" class = "alert alert-danger" hidden></div>
 	</div>
-	<div class = "container abc">
-			<h3>Comments by me:</h3>
-				
-	</div>
 	<div class = "container" id = "myComments">
 	</div>
 	<button class = "btn btn-primary viewMore" onclick = "viewNewComments()" hidden>New Comments For You</button>
