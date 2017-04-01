@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+.viewMore{
+	margin-left:45%;
+	margin-right:45%;
+	border-radius:40%;
+	margin-top:2%;
+	position:fixed;
+	display:none;
+	z-index:100;
+}
+.test{
+	margin-left:6px;
+}
+.reply-well{
+	margin-top:8px;	
+}
+.reply-button{
+	margin-bottom:10px;
+	margin-top:-2px;
+}
+.edited-font{
+	font-size:20px;
+}
+.comment{
+	font-size:16px;
+	margin-top:5px;
+}
+.glyphicon{
+	font-size:20px;
+}
