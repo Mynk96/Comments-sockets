@@ -1,7 +1,9 @@
 # Comments-sockets
+Disclaimer:-This project is just a simple prototype,the code is still not that organized.<br/>
+
 Prototype for teammates comments+ project.<br/>
 
-About:-<br/>
+<b>About:-</b><br/>
 Real time commenting System.<br/>
 
 Technologies & languages used:-<br/>
