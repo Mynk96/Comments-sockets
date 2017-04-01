@@ -31,12 +31,7 @@ Procedure:-<br/>
 6)Select Apache Tomcat 7.0 Server.<br/>
 7)Browse to apache Tomcat directory and Select Finish.<br/>
 8)An error will occur,Next Click on servers folder on left side select context.xml<br/>
-9)Paste above (</Context>) tag:-
-              (<Resource name="jdbc/comments" auth="Container" type="javax.sql.DataSource"
-               maxActive="100" maxIdle="30" maxWait="10000"
-               username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://localhost:3306/comments"/>)<br/>
-  with your mysql username and password (mine was username = "root" and password = "root")<br/>
+9)Paste the contents from context.txt from clone repo before the end of Context tag in context.xml and change username and password with your mysql username and password.(default is username = "root" and password = "root")<br/>
   10)Now Right click on Comments->Run as->Run on Server.<br/>
   11)Open http://localhost:8080/Comments in your browser.<br/>
   12)Volla You did it.
@@ -49,6 +44,8 @@ Sample run:-<br/>
 4)Comment particularly for someone.<br/>
 5)As soon as you comment, "View new Comments" buttons appear click and you will see your own comment.<br/>
 
-How this project 
+How this project works:-<br/>
+This project implements basic comment and reply system with additonal feature to know if the comment has been read.
+How additional feature works is when user1 makes a comment for user2,user2 gets notified with a link.When user2 visits the link or clicks the notification icon ,the comment is termed as read by user2.
 
 
