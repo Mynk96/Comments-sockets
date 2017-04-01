@@ -31,11 +31,11 @@ Procedure:-<br/>
 6)Select Apache Tomcat 7.0 Server.<br/>
 7)Browse to apache Tomcat directory and Select Finish.<br/>
 8)An error will occur,Next Click on servers folder on left side select context.xml<br/>
-9)Paste above </Context> tag:-
-              <Resource name="jdbc/comments" auth="Container" type="javax.sql.DataSource"
+9)Paste above (</Context>) tag:-
+              (<Resource name="jdbc/comments" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
                username="root" password="root" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://localhost:3306/comments"/><br/>
+               url="jdbc:mysql://localhost:3306/comments"/>)<br/>
   with your mysql username and password (mine was username = "root" and password = "root")<br/>
   10)Now Right click on Comments->Run as->Run on Server.<br/>
   11)Open http://localhost:8080/Comments in your browser.<br/>
