@@ -1,5 +1,5 @@
 # Comments-sockets
-Prototype for teammates comments+ project.
+Prototype for teammates comments+ project
 
 About:-
 Real time commenting System.
